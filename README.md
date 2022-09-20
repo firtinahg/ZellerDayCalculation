@@ -24,9 +24,9 @@ where
 
 * m is the month (3 = March, 4 = April, 5 = May, ..., 14 = February)
 
-* K the year of the century ({\displaystyle year{\bmod {1}}00}{\displaystyle year{\bmod {1}}00}).
+* K the year of the century ![image](https://user-images.githubusercontent.com/57679283/191347778-766c613a-3e02-4b9f-a5fe-378164636190.png).
 
-* J is the zero-based century (actually {\displaystyle \lfloor year/100\rfloor }\lfloor year/100\rfloor ) For example, the zero-based centuries for 1995 and 2000 are 19 and 20 respectively (not to be confused with the common ordinal century enumeration which indicates 20th for both cases).
+* J is the zero-based century (actually ![image](https://user-images.githubusercontent.com/57679283/191347930-83ce7eb5-8f9e-4d94-a543-2e7d71985af2.png)) For example, the zero-based centuries for 1995 and 2000 are 19 and 20 respectively (not to be confused with the common ordinal century enumeration which indicates 20th for both cases).
 
 * ![image](https://user-images.githubusercontent.com/57679283/191346383-fe096f2b-8d3d-4496-a1fc-563d1e67e9f8.png) is the floor function or integer part
 
