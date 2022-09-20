@@ -18,19 +18,19 @@ for the Julian calendar it is:
 
 where
 
-h is the day of the week (0 = Saturday, 1 = Sunday, 2 = Monday, ..., 6 = Friday)
+* h is the day of the week (0 = Saturday, 1 = Sunday, 2 = Monday, ..., 6 = Friday)
 
-q is the day of the month
+* q is the day of the month
 
-m is the month (3 = March, 4 = April, 5 = May, ..., 14 = February)
+* m is the month (3 = March, 4 = April, 5 = May, ..., 14 = February)
 
-K the year of the century ({\displaystyle year{\bmod {1}}00}{\displaystyle year{\bmod {1}}00}).
+* K the year of the century ({\displaystyle year{\bmod {1}}00}{\displaystyle year{\bmod {1}}00}).
 
-J is the zero-based century (actually {\displaystyle \lfloor year/100\rfloor }\lfloor year/100\rfloor ) For example, the zero-based centuries for 1995 and 2000 are 19 and 20 respectively (not to be confused with the common ordinal century enumeration which indicates 20th for both cases).
+* J is the zero-based century (actually {\displaystyle \lfloor year/100\rfloor }\lfloor year/100\rfloor ) For example, the zero-based centuries for 1995 and 2000 are 19 and 20 respectively (not to be confused with the common ordinal century enumeration which indicates 20th for both cases).
 
-![image](https://user-images.githubusercontent.com/57679283/191346383-fe096f2b-8d3d-4496-a1fc-563d1e67e9f8.png) is the floor function or integer part
+* ![image](https://user-images.githubusercontent.com/57679283/191346383-fe096f2b-8d3d-4496-a1fc-563d1e67e9f8.png) is the floor function or integer part
 
-mod is the modulo operation or remainder after division
+* mod is the modulo operation or remainder after division
 
 In this algorithm January and February are counted as months 13 and 14 of the previous year. E.g. if it is 2 February 2010, the algorithm counts the date as the second day of the fourteenth month of 2009 (02/14/2009 in DD/MM/YYYY format)
 
